@@ -5,9 +5,7 @@ Proyecto Árbol B+ conlleva su definición formal, búsqueda, inserción, borrad
 
 
 ## Estructura MVC
-
-```
-src/bplustree/
+```src/bplustree/
 ├── Main.java                      <- arma Vista + Controlador y arranca
 ├── PruebaAleatoria.java           <- prueba contra TreeMap (315 000 operaciones)
 ├── model/                         <- MODELO: datos y reglas, sin System.out
