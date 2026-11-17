@@ -29,23 +29,6 @@ VistaConsola.leerEntero() ──▶ Controlador.insertar() ──▶ BPlusTree.i
 
 ---
 
-## Cómo Compilar y Ejecutar
-
-Desde la raíz del proyecto (donde se encuentra la carpeta `src`):
-
-```bash
-# 1. Compilar todos los paquetes
-javac -d bin src/bplustree/*.java src/bplustree/model/*.java src/bplustree/view/*.java src/bplustree/controller/*.java
-
-# 2. Ejecutar la aplicación principal
-java -cp bin bplustree.Main
-
-# 3. (Opcional) Ejecutar la batería de pruebas aleatorias
-java -cp bin bplustree.PruebaAleatoria
-```
-
----
-
 ## Opciones del Menú y Demostraciones
 
 La aplicación incluye tanto gestión interactiva como demostraciones paso a paso vinculadas a la documentación teórica:
